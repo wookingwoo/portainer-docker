@@ -3,5 +3,5 @@
 Set up Portainer with Docker.
 
 ```bash
-sudo docker-compose up -d
+sudo docker compose up -d
 ```
