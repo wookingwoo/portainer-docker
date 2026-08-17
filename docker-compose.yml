@@ -10,3 +10,10 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - ./portainer_data/data:/data
+    networks:
+      - default
+      - wookingwoo-op-bridge
+
+networks:
+  wookingwoo-op-bridge:
+    external: true
